@@ -1,0 +1,17 @@
+body{
+    background-image: url(background.jpg);
+    font-size: larger;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    display: flex;
+   
+}
+.container{
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+canvas{
+    opacity:0.4;
+}
