@@ -7,4 +7,5 @@
  2. CLOCK-JS
  3. Array cardio 1 - Array method (.reduce(), .map() , .sort())
  4. Playing with css
+ 5. Fun with Flex-box
  
