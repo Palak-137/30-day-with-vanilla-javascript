@@ -1,0 +1,30 @@
+:root{
+    --base:rgb(218, 204, 21);
+    --spacing:50px;
+    --blur:10px;
+}
+body{
+    background-color: blanchedalmond;
+    font-size: larger;
+    text-align: center;
+
+}
+
+.control{
+    margin:60px;
+}
+img{
+    height:400px;
+    width:500px;
+    border-radius: 5px;
+    padding:var(--spacing);
+    background-color:var(--base);
+    filter:blur(var(--blur));
+}
+.hl{
+    color:var(--base);
+}
+input{
+    margin: 5px;;
+    width: 100px;
+}
