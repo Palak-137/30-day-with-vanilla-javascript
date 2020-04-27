@@ -5,6 +5,6 @@
  # Table of content 
  1. DRUM-KIT
  2. CLOCK-JS
- 3. Array cardio 1
+ 3. Array cardio 1 - Array method (.reduce , .map , .sort)
  4. Playing with css
  
