@@ -1,0 +1,42 @@
+body{
+    background-color: #dfb21d;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+
+}
+input{
+    width: 300px;
+    align-self: center;
+    display: flex;
+    -ms-flex-align: center;
+    height: 50px;
+    border-radius: 2px;
+    border: 3px solid gray;
+    margin-top: 100px;
+    padding: 10px;
+
+}
+input:hover{
+    border-color: red;
+}
+li{
+    widows: 275px;
+    height: 50px;
+    margin: 1px;
+    border: 2px solid black;
+    background-color: grey;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.name{
+    padding:10px;
+}
+.hl{
+    background-color: yellow;
+    font-weight: bolder;
+}
