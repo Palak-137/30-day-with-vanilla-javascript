@@ -1,0 +1,49 @@
+body{
+    margin:20px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Lora', serif;
+    background-color: #f5d20c;
+}
+* , *::before,*:after{
+    box-sizing: inherit;
+}
+img{
+    width: 400px;
+    height: 500px;
+}
+h1{
+    font-weight: bolder;
+}
+.text{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.image {
+  
+
+    
+}
+.image1{
+    float: right;
+    margin:30px;
+    transform: translateX(30%) scale(0.95);
+}
+.slide-in.active{
+    opacity: 1;
+    margin:30px;
+    transform: translate(0%) scale(1);
+}
+.container{
+ background-color: white;
+ padding: 10px;
+ margin: 5px;
+}
+.slide-in{
+    opacity: 0;
+    float: left;
+    margin:30px;
+    transition: all .5s;
+    transform: translateX(-30%) scale(0.95);
+}
