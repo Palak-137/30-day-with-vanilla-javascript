@@ -1,0 +1,23 @@
+body{
+    background-color: rgba(255, 230, 0, 0.863);
+    text-align: center;
+    justify-content: center;
+
+}
+.item{
+    height: 50px;
+    background-color: rgb(197, 194, 194);
+    width: 400px;
+    text-align: start; 
+}
+div.item{
+ border-style: solid;
+ border-color: black;
+ border-width: thin;
+}
+.index{
+    text-align: center;
+}
+input[type=checkbox]:checked + label.strike{
+    text-decoration: line-through;
+  }
