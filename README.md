@@ -15,3 +15,6 @@
  10. Hold Shift to Check the Boxes
  11. Key Detection (Fun Game - Guess the word , hint-My UserName)
  12. Video-Player with Controls
+ 13. Shadow over Mouseover 
+ 14. Local storage and Event Delegation
+ 15. Copy and by Referance 
