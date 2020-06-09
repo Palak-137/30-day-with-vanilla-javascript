@@ -1,0 +1,44 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.res{
+    background-image: url('img.jpg');
+     height: 200vh; 
+     width: 100%;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     opacity: 0.8;
+     position: absolute;
+}
+.res:after{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgb(219, 210, 210),rgb(92, 52, 52));
+}
+.wrapper{
+    position: relative;
+    background-color: rgb(85, 25, 126);
+    height: 400px;
+    width: 320px;
+    z-index: 5;
+    border-radius: 10px;
+    opacity: 1;
+}
+hr{
+    width: 80%;
+    color: black;
+}
+#plates input + label:before{
+    content: "⬜";
+    margin: 10px;
+}
+#plates input:checked +label:before{
+    content : "🍔";
+    margin: 10px;
+}
