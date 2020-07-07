@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<HTml>
+    <head>
+        <title>WebCam</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <lable for="rmax">Red max:</lable>
+        <input type="range" min="0" max="255"name="rmax">
+        <lable for="rmin">Red min:</lable>
+        <input type="range" min="0" max="255"name="rmin">
+        <br>
+        <lable for="gmax">Green max:</lable>
+        <input type="range" min="0" max="255"name="gmax">
+        <lable for="gmin">Green min:</lable>
+        <input type="range" min="0" max="255"name="gmin">
+        <br>
+        <lable for="bmax">Blue max:</lable>
+        <input type="range" min="0" max="255"name="bmax">
+        <lable for="bmin">Blue min:</lable>
+        <input type="range" min="0" max="255"name="bmin">
+        <br>
+        <canvas class="photo"></canvas>
+        <video class="player"></video>
+        <div class="strip"></div>
+
+        <audio class="snap" src="" hidden></audio>
+        <script src="index.js"></script>
+    </body>
+</HTml>
