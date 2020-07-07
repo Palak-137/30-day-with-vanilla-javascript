@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(19, 81, 216);
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.words{
+    max-width: 400px;
+   max-height: 100px;
+    background-color: ivory;
+    margin: 50px auto;
+    border-radius: 10px;
+    align-self: center;
+
+}
