@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, rgb(230, 89, 7) , rgb(219, 44, 73));
+}
+.navbar{
+    background: black;
+    color: white;
+    font-size: 1.5em;
+}
+.navbar .menu ul{
+    display: flex;
+    float: right;
+    flex-direction: row;
+    list-style: none;
+}
+.navbar .menu ul li{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+
+}
+.wrapper{
+    margin-top: 100px;
+    font-size: 1.3em;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: rgb(12, 168, 230);
+    padding: 30px;
+    border-radius: 20px;
+
+    box-shadow: 10px 10px 10px black;
+}
+.highlight{
+  background-color: white !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 20px;
+    z-index: 10;
+    transition: all 0.3s ;
+}
