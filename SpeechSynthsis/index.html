@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Synthis</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="main.css"type="text/css">
+</head>
+<body>
+    <div class="box">
+        <header>
+            <h1>My terminator</h1>
+        </header>
+        <div class="dropdown">
+            <select name="voice" id="voices">
+                <option value="">Select the language</option>
+            </select>
+        </div>
+        <label>Speed</label>
+        <input type="range" name="rate" min="0" max="3" step="0.2"/>
+        <label>Pitch</label>
+        <input type="range" name="pitch" min="0" max="3" step="0.2"/>
+        <textarea type="text" name="text">Hello! I Love Javascript</textarea>
+        <button id="stop">Stop!!</button>
+        <button id="speak">speak!!!!</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
