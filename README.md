@@ -1,5 +1,5 @@
 # 30-day-with-vanilla-javascript
- Starting with 30 day code challenge in vanilla javascript.
+                                    Starting with 30 day code challenge in vanilla javascript.?
  
  https://javascript30.com/ 
  # Table of content 
@@ -13,7 +13,7 @@
  8. HTML Cnavas
  9. Slide On Scroll
  10. Hold Shift to Check the Boxes
- 11. Key Detection (Fun Game - Guess the word , hint-My UserName)
+ 11. Key Detection (Fun Game - Guess the word , hint-My UserName)??
  12. Video-Player with Controls
  13. Shadow over Mouseover 
  14. Local storage and Event Delegation
@@ -23,3 +23,5 @@
  18. Text To Speech
  19. Web Cam
  20. Stiky Navbar
+ 21.Speech Synthsis (text to speech converter)
+ 22.Event capturing , bubling ,once, onPropogation
