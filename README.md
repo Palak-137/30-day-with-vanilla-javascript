@@ -1,7 +1,7 @@
 # 30-day-with-vanilla-java
  # Starting with 30 day code challenge in vanilla javascript❤
  
- https://javascript30.com/ 
+ https://palak-137.github.io/30-day-with-vanilla-javascript/
  # Table of content 
  1. DRUM-KIT
  2. CLOCK-JS
