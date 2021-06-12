@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  font-family: 'Nunito', sans-serif;
+}
+body {
+  background-color:#0f0f1b;
+  place-items:center;
+  display: flex;
+}
+html,body {
+  height:100%;
+  margin-top: 5%;
+}
+header{
+    font-size: 18px;
+    margin-top: 100%;
+    margin-bottom: 10%;
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+header h3{
+    font-weight: 900;
+    font-size: 30px;
+}
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.pricing-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .pricing-list ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .pricing-list li {
+    width: max-content;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+  }
+  .pricing-list li a {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+    background: #171727;
+    border-radius: 20px;
+    padding: 35px;
+    color: #fff;
+    text-align: left;
+    transition: 300ms background;
+    position: relative;
+  }
+  .pricing-list li.actv a,
+  .pricing-list li a:hover {
+    background: #242486;
+  }
+  
+  .title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .domain-title {
+    margin-bottom: 35px;
+  }
+  .price {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .price span {
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  .btn {
+    font-size: 16px;
+    margin-top: auto;
+    display: flex;
+  }
+  .btn i {
+    color: #fff;
+    margin-left: 10px;
+    transition: 300ms margin-left;
+  }
+  .action {
+    margin-top: 64px;
+    text-align: center;
+  }
+  .action a {
+    display: inline-block;
+    padding: 18px 45px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #8080b9;
+    border: 2px solid #1f1f35;
+    transition: 300ms all;
+  }
+  .action a:hover {
+    border-color: #8080b9;
+    color: #fff;
+  }
+  .best-price {
+    position: absolute;
+    top: -15px;
+    height: 30px;
+    background-color: #a0e0b2;
+    border-radius: 30px;
+    color: #171727;
+    font-size: 16px;
+    padding: 0 18px;
+    line-height: 30px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  @media screen and (max-width: 600px){
+    header{
+        font-size: 18px;
+        margin-top: 1600%;
+        margin-bottom: 20%;
+    }
+  }

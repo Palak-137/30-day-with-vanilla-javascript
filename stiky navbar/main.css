@@ -1,0 +1,58 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+}
+.text{
+    text-align: center;
+    height: 100px;
+    background: #262626;
+    color: #FFF;
+}
+.text h2{
+    margin: 0;
+    line-height: 100px;
+    font-size: 48px;
+}
+.nav{
+    background: #CA3400;
+    color: #FFF;
+    display: flex
+}
+.nav .logo{
+    font-size: 24px;
+    padding: 20px;
+    margin-left: 25px
+}
+.nav .logo a{
+    color: #FFF;
+    text-decoration: none
+}
+.nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 50%;
+    margin-left: auto
+}
+ul li{
+    padding: 20px;
+    list-style: none
+}
+ul li a{
+    color: #FFF;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold
+}
+section{
+    height: 300px;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
+}

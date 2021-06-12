@@ -8,6 +8,12 @@ body{
     font-weight: bolder;
     font-size: 20px;
 }
+.container{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
 .words{
     max-width: 400px;
    max-height: 100px;
